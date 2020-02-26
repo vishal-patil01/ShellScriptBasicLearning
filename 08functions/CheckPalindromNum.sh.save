@@ -1,0 +1,13 @@
+#!/bin/bash -x
+
+function isPalindrome() {
+	t=$1
+	echo $t
+}
+
+function getValue() {
+	echo "Enter Number To Check it is palindrome" num
+	isPalindrome $num
+}
+getValue 
+

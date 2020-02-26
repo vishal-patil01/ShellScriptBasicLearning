@@ -1,0 +1,4 @@
+ cat sample | grep pp
+ cat sample | grep ^a
+ cat sample | grep ll$
+

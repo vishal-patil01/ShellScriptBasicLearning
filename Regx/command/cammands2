@@ -1,0 +1,14 @@
+ 
+ 1569  touch a.jpg b.gif c.png d.pdf e.pdf ee.pdf
+ 1570  ls
+ 1571  ls ?.jpg => a.jpg (Single file)
+ 1572  ls [ab]*  => a.jpg b.jpg
+ 1575  ls ?(*.jpg|*.gif) => 1jpg and 1 gif
+ 1576  ls !(*.jpg|*.gif) => not matching to jpg and gif
+ 1577  ls *.pdf => all pdf 0 to 1 infinity
+ 1578  ls ?(e).pdf => 1 pdf e.pdf 
+ 1579  ls *(e).pdf => e.pdf ee.pdf
+       ls @(e).pdf => only one  e.pdf
+ 1580  ls +(e).pdf => e.pdf ee.pdf (1 to infinity)
+ 1581  ls !(e).pdf => not matching e.pdf but show ee.pdf
+ 
